@@ -1,6 +1,6 @@
 body {
-    background: var(--light-background);
-    color: var(--light-primary);
+    background: var(--background);
+    color: var(--primary);
     font-size: 16px;
     padding: 0 1rem;
     font-family: "Work Sans", sans-serif;
@@ -12,7 +12,11 @@ body {
 
     --light-background: white;
     --light-primary: #0077B6;
-    --light-link: #0077B6;
+    --light-link: #00B4D8;
+
+    --dark-background: #0077B6;
+    --dark-primary: white;
+    --dark-link: #90E0EF;
 
     --background: var(--light-background);
     --primary: var(--light-primary);
@@ -148,6 +152,7 @@ article h3 {
 article a {
     font-weight: 700;
     padding: 2rem 0;
+    text-decoration: none;
 }
 
 article li {
