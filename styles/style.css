@@ -165,3 +165,48 @@ article .article-img {
         margin-block-start: 2rem;
     }
 }
+
+/* Footer Section */
+footer {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer ul {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 8%;
+}
+
+footer a {
+    display: inline-flex;
+    flex-direction: column;
+    color: var(--primary);
+    text-decoration: none;
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    align-items: center;
+}
+
+footer .copyright {
+    margin: 3rem 0;
+}
+
+footer .link-icon {
+    margin-block-start: 0.5rem;
+    background: var(--link);
+    color: var(--background);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
