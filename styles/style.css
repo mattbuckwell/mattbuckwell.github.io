@@ -1,0 +1,73 @@
+body {
+    background: var(--light-background);
+    color: var(--light-primary);
+    font-size: 16px;
+    padding: 0 1rem;
+    font-family: "Work Sans", sans-serif;
+    max-width: 1024px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    transition: color 0.5s;
+    transition: background 0.5s;
+
+    --light-background: white;
+    --light-primary: #0077B6;
+    --light-link: #0077B6;
+
+    --background: var(--light-background);
+    --primary: var(--light-primary);
+    --link: var(--light-link);
+}
+
+a {
+    color: var(--link);
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/* Separation of Sections */
+nav,
+section {
+    border-block-end: 1px solid var(--primary);
+}
+
+/* NavBar Section */
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+header nav li {
+    display: inline;
+    margin-inline-start: 1rem;
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: var(--primary);
+}
