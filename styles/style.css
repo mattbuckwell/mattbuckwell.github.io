@@ -72,6 +72,13 @@ header nav li a {
     color: var(--primary);
 }
 
+/* Container for dark-mode toggle */
+header .controls {
+    display: flex;
+    justify-content: end;
+    padding: 1rem 0;
+}
+
 /* Bio Section */
 .bio {
     display: flex;
