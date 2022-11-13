@@ -163,6 +163,7 @@ article .article-img {
     min-width: 512px;
     margin-inline-start: 4rem;
     border-radius: 1rem;
+    border: 2px solid #0077B6;
 }
 
 @media (max-width: 1024px)
@@ -175,6 +176,7 @@ article .article-img {
         min-width: 100%;
         margin-inline-start: 0;
         margin-block-start: 2rem;
+        border: 2px solid #0077B6;
     }
 }
 
