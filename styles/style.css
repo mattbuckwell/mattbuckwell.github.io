@@ -137,6 +137,9 @@ header .controls {
 }
 
 /* Recent Work Section */
+#recent-work {
+    font-size: 2.5rem;
+}
 .recent-work {
     padding-block-end: 3rem;
 }
