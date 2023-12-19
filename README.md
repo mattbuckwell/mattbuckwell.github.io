@@ -1,6 +1,6 @@
 # Portfolio
 
-Simple Portfolio website.  ** UNDER CONSTRUCTION **
+Simple Portfolio website.
 
 ## Description
 
@@ -26,4 +26,5 @@ This portfolio was created through the learning from Codecademy to help get a st
 ## Acknowledgments
 
 Project learnt through Codecademy
-* [Codecademy](https://www.codecademy.com)
+
+- [Codecademy](https://www.codecademy.com)
