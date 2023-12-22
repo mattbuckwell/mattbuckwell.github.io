@@ -1,6 +1,6 @@
 # Portfolio
 
-Simple Portfolio website.
+Simple Portfolio website to showcase coding projects.
 
 ## Description
 
